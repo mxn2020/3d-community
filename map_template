@@ -1,0 +1,186 @@
+{
+  "id": "uuid-map-riverside-estates-hub",
+  "name": "Riverside Estates & Downtown Hub",
+  "description": "A sprawling map featuring distinct residential zones, a central park, a meandering river, and ample plots for a thriving community. Designed to host over 100 plots.",
+  "width": 600,
+  "height": 400,
+  "items": [
+    {
+      "id": "uuid-ground-grass-main",
+      "type": "ground-grass",
+      "category": "ground",
+      "x": 0,
+      "y": 0,
+      "width": 600,
+      "height": 400,
+      "rotation": 0,
+      "scale": 1,
+      "color": "#8CC084",
+      "layerId": "e44f225d-ad14-468d-8a0b-564e94488c2d",
+      "elevationOffset": 0,
+      "properties": {}
+    },
+    {
+      "id": "uuid-ground-park-central",
+      "type": "ground-park",
+      "category": "ground",
+      "x": 225,
+      "y": 150,
+      "width": 150,
+      "height": 100,
+      "rotation": 0,
+      "scale": 1,
+      "color": "#228B22",
+      "layerId": "e44f225d-ad14-468d-8a0b-564e94488c2d",
+      "elevationOffset": 0.001,
+      "properties": {"name": "Central Park"}
+    },
+    {
+      "id": "uuid-ground-water-river",
+      "type": "ground-water",
+      "category": "ground",
+      "x": 0,
+      "y": 360,
+      "width": 600,
+      "height": 40,
+      "rotation": 0,
+      "scale": 1,
+      "color": "#1e88e5",
+      "layerId": "e44f225d-ad14-468d-8a0b-564e94488c2d",
+      "elevationOffset": -0.02,
+      "properties": {"name": "Serene River"}
+    },
+    {
+      "id": "uuid-ground-water-pond",
+      "type": "ground-water",
+      "category": "ground",
+      "x": 280,
+      "y": 180,
+      "width": 30,
+      "height": 20,
+      "rotation": 0,
+      "scale": 1,
+      "color": "#1e88e5",
+      "layerId": "e44f225d-ad14-468d-8a0b-564e94488c2d",
+      "elevationOffset": -0.015,
+      "properties": {"name": "Park Pond"}
+    },
+
+    { "id": "uuid-street-h1", "type": "street-main", "category": "street", "x": 10, "y": 50, "width": 580, "height": 4, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "North Boulevard"} },
+    { "id": "uuid-street-h2", "type": "street-main", "category": "street", "x": 10, "y": 120, "width": 205, "height": 4, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "Parkside West Approach"} },
+    { "id": "uuid-street-h3", "type": "street-main", "category": "street", "x": 385, "y": 120, "width": 205, "height": 4, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "Parkside East Approach"} },
+    { "id": "uuid-street-h4", "type": "street-main", "category": "street", "x": 10, "y": 260, "width": 205, "height": 4, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "Greenway West"} },
+    { "id": "uuid-street-h5", "type": "street-main", "category": "street", "x": 385, "y": 260, "width": 205, "height": 4, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "Greenway East"} },
+    { "id": "uuid-street-h6", "type": "street-main", "category": "street", "x": 10, "y": 330, "width": 580, "height": 4, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "Riverside Drive"} },
+    { "id": "uuid-street-v1", "type": "street-main", "category": "street", "x": 50, "y": 10, "width": 4, "height": 310, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "1st Avenue"} },
+    { "id": "uuid-street-v2", "type": "street-main", "category": "street", "x": 150, "y": 10, "width": 4, "height": 310, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "2nd Avenue"} },
+    { "id": "uuid-street-v3", "type": "street-main", "category": "street", "x": 220, "y": 10, "width": 4, "height": 100, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "Park Entrance North West"} },
+    { "id": "uuid-street-v4", "type": "street-main", "category": "street", "x": 220, "y": 264, "width": 4, "height": 66, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "Park Exit South West"} },
+    { "id": "uuid-street-v5", "type": "street-main", "category": "street", "x": 380, "y": 10, "width": 4, "height": 100, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "Park Entrance North East"} },
+    { "id": "uuid-street-v6", "type": "street-main", "category": "street", "x": 380, "y": 264, "width": 4, "height": 66, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "Park Exit South East"} },
+    { "id": "uuid-street-v7", "type": "street-main", "category": "street", "x": 450, "y": 10, "width": 4, "height": 310, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "3rd Avenue"} },
+    { "id": "uuid-street-v8", "type": "street-main", "category": "street", "x": 550, "y": 10, "width": 4, "height": 310, "rotation": 0, "scale": 1, "color": "#555555", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": 0, "properties": {"name": "4th Avenue"} },
+    { "id": "uuid-street-path-park-h", "type": "street-path", "category": "street", "x": 225, "y": 199, "width": 150, "height": 2, "rotation": 0, "scale": 1, "color": "#d2b48c", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": -0.005, "properties": {"name": "Park Central Path H"} },
+    { "id": "uuid-street-path-park-v", "type": "street-path", "category": "street", "x": 299, "y": 150, "width": 2, "height": 100, "rotation": 0, "scale": 1, "color": "#d2b48c", "layerId": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "elevationOffset": -0.005, "properties": {"name": "Park Central Path V"} }
+    // START OF GENERATED PLOTS, LAMPS, TREES
+    // Standard Plots - North of H1 (y=39) - 52 plots
+    // (Example of first and last, intermediate plots follow the pattern)
+    ,{ "id": "uuid-plot-h1n-1", "type": "plot-standard", "category": "plot", "x": 10, "y": 39, "width": 10, "height": 10, "rotation": 0, "scale": 1, "color": "#d5e8d4", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Standard Plot H1N-1"} }
+    // ... plots h1n-2 to h1n-51 ...
+    ,{ "id": "uuid-plot-h1n-52", "type": "plot-standard", "category": "plot", "x": 571, "y": 39, "width": 10, "height": 10, "rotation": 0, "scale": 1, "color": "#d5e8d4", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Standard Plot H1N-52"} }
+
+    // Standard Plots - North of H6 (y=319) - 52 plots
+    ,{ "id": "uuid-plot-h6n-1", "type": "plot-standard", "category": "plot", "x": 10, "y": 319, "width": 10, "height": 10, "rotation": 0, "scale": 1, "color": "#d5e8d4", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Standard Plot H6N-1"} }
+    // ... plots h6n-2 to h6n-51 ...
+    ,{ "id": "uuid-plot-h6n-52", "type": "plot-standard", "category": "plot", "x": 571, "y": 319, "width": 10, "height": 10, "rotation": 0, "scale": 1, "color": "#d5e8d4", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Standard Plot H6N-52"} }
+
+    // Premium Plots - South of H2 (y=125) - 12 plots
+    ,{ "id": "uuid-plot-prem-h2s-1", "type": "plot-premium", "category": "plot", "x": 10, "y": 125, "width": 15, "height": 10, "rotation": 0, "scale": 1, "color": "#b5e7a0", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Premium Plot H2S-1"} }
+    // ... plots prem-h2s-2 to prem-h2s-11 ...
+    ,{ "id": "uuid-plot-prem-h2s-12", "type": "plot-premium", "category": "plot", "x": 186, "y": 125, "width": 15, "height": 10, "rotation": 0, "scale": 1, "color": "#b5e7a0", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Premium Plot H2S-12"} }
+
+    // Premium Plots - South of H3 (y=125) - 12 plots
+    ,{ "id": "uuid-plot-prem-h3s-1", "type": "plot-premium", "category": "plot", "x": 385, "y": 125, "width": 15, "height": 10, "rotation": 0, "scale": 1, "color": "#b5e7a0", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Premium Plot H3S-1"} }
+    // ... plots prem-h3s-2 to prem-h3s-11 ...
+    ,{ "id": "uuid-plot-prem-h3s-12", "type": "plot-premium", "category": "plot", "x": 561, "y": 125, "width": 15, "height": 10, "rotation": 0, "scale": 1, "color": "#b5e7a0", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Premium Plot H3S-12"} }
+
+    // Premium Plots - North of H4 (y=249) - 12 plots
+    ,{ "id": "uuid-plot-prem-h4n-1", "type": "plot-premium", "category": "plot", "x": 10, "y": 249, "width": 15, "height": 10, "rotation": 0, "scale": 1, "color": "#b5e7a0", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Premium Plot H4N-1"} }
+    // ... plots prem-h4n-2 to prem-h4n-11 ...
+    ,{ "id": "uuid-plot-prem-h4n-12", "type": "plot-premium", "category": "plot", "x": 186, "y": 249, "width": 15, "height": 10, "rotation": 0, "scale": 1, "color": "#b5e7a0", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Premium Plot H4N-12"} }
+
+    // Premium Plots - North of H5 (y=249) - 12 plots
+    ,{ "id": "uuid-plot-prem-h5n-1", "type": "plot-premium", "category": "plot", "x": 385, "y": 249, "width": 15, "height": 10, "rotation": 0, "scale": 1, "color": "#b5e7a0", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Premium Plot H5N-1"} }
+    // ... plots prem-h5n-2 to prem-h5n-11 ...
+    ,{ "id": "uuid-plot-prem-h5n-12", "type": "plot-premium", "category": "plot", "x": 561, "y": 249, "width": 15, "height": 10, "rotation": 0, "scale": 1, "color": "#b5e7a0", "layerId": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "elevationOffset": 0, "properties": {"name": "Premium Plot H5N-12"} }
+
+    // Street Lamps - H1 North (y=48) - 14 lamps
+    // (Example of first and last, intermediate lamps follow the pattern)
+    ,{ "id": "uuid-lamp-h1n-1", "type": "decorative-lamp", "category": "decorative", "x": 15, "y": 48, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    // ... lamps h1n-2 to h1n-13 ...
+    ,{ "id": "uuid-lamp-h1n-14", "type": "decorative-lamp", "category": "decorative", "x": 587, "y": 48, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+
+    // Street Lamps - H1 South (y=54) - 14 lamps
+    ,{ "id": "uuid-lamp-h1s-1", "type": "decorative-lamp", "category": "decorative", "x": 15, "y": 54, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    // ... lamps h1s-2 to h1s-13 ...
+    ,{ "id": "uuid-lamp-h1s-14", "type": "decorative-lamp", "category": "decorative", "x": 587, "y": 54, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+
+    // Street Lamps - H6 North (y=328) - 14 lamps
+    ,{ "id": "uuid-lamp-h6n-1", "type": "decorative-lamp", "category": "decorative", "x": 15, "y": 328, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    // ... lamps h6n-2 to h6n-13 ...
+    ,{ "id": "uuid-lamp-h6n-14", "type": "decorative-lamp", "category": "decorative", "x": 587, "y": 328, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+
+    // Street Lamps - H6 South (y=334) - 14 lamps
+    ,{ "id": "uuid-lamp-h6s-1", "type": "decorative-lamp", "category": "decorative", "x": 15, "y": 334, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    // ... lamps h6s-2 to h6s-13 ...
+    ,{ "id": "uuid-lamp-h6s-14", "type": "decorative-lamp", "category": "decorative", "x": 587, "y": 334, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+
+    // Street Lamps - H2 South (y=124) - 5 lamps
+    ,{ "id": "uuid-lamp-h2s-1", "type": "decorative-lamp", "category": "decorative", "x": 15, "y": 124, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    // ... lamps h2s-2 to h2s-4 ...
+    ,{ "id": "uuid-lamp-h2s-5", "type": "decorative-lamp", "category": "decorative", "x": 191, "y": 124, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+
+    // Street Lamps - H3 South (y=124) - 5 lamps
+    ,{ "id": "uuid-lamp-h3s-1", "type": "decorative-lamp", "category": "decorative", "x": 390, "y": 124, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    // ... lamps h3s-2 to h3s-4 ...
+    ,{ "id": "uuid-lamp-h3s-5", "type": "decorative-lamp", "category": "decorative", "x": 566, "y": 124, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+
+    // Street Lamps - H4 North (y=258) - 5 lamps
+    ,{ "id": "uuid-lamp-h4n-1", "type": "decorative-lamp", "category": "decorative", "x": 15, "y": 258, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    // ... lamps h4n-2 to h4n-4 ...
+    ,{ "id": "uuid-lamp-h4n-5", "type": "decorative-lamp", "category": "decorative", "x": 191, "y": 258, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+
+    // Street Lamps - H5 North (y=258) - 5 lamps
+    ,{ "id": "uuid-lamp-h5n-1", "type": "decorative-lamp", "category": "decorative", "x": 390, "y": 258, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    // ... lamps h5n-2 to h5n-4 ...
+    ,{ "id": "uuid-lamp-h5n-5", "type": "decorative-lamp", "category": "decorative", "x": 566, "y": 258, "width": 0.5, "height": 2, "rotation": 0, "scale": 1, "color": "#FFD700", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+
+    // Decorative Trees in Park - 10 trees
+    ,{ "id": "uuid-tree-park-1", "type": "decorative-tree-forest", "category": "decorative", "x": 230, "y": 155, "width": 3, "height": 3, "rotation": 0, "scale": 1, "color": "#2E8B57", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    ,{ "id": "uuid-tree-park-2", "type": "decorative-tree-pine", "category": "decorative", "x": 250, "y": 170, "width": 2.5, "height": 2.5, "rotation": 0, "scale": 1, "color": "#6B8E23", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    ,{ "id": "uuid-tree-park-3", "type": "decorative-tree-tree", "category": "decorative", "x": 235, "y": 230, "width": 3, "height": 3, "rotation": 0, "scale": 1, "color": "#228B22", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    ,{ "id": "uuid-tree-park-4", "type": "decorative-tree-bonsai", "category": "decorative", "x": 270, "y": 190, "width": 1.5, "height": 1.5, "rotation": 0, "scale": 1, "color": "#8B0000", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    ,{ "id": "uuid-tree-park-5", "type": "decorative-tree-crystal", "category": "decorative", "x": 300, "y": 160, "width": 2, "height": 2, "rotation": 0, "scale": 1, "color": "#87CEEB", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    ,{ "id": "uuid-tree-park-6", "type": "decorative-tree-forest", "category": "decorative", "x": 355, "y": 175, "width": 3.5, "height": 3.5, "rotation": 0, "scale": 1, "color": "#2E8B57", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    ,{ "id": "uuid-tree-park-7", "type": "decorative-tree-pine", "category": "decorative", "x": 360, "y": 235, "width": 2.5, "height": 2.5, "rotation": 0, "scale": 1, "color": "#6B8E23", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    ,{ "id": "uuid-tree-park-8", "type": "decorative-tree-mushroom", "category": "decorative", "x": 330, "y": 210, "width": 2, "height": 2, "rotation": 0, "scale": 1, "color": "#8B4513", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    ,{ "id": "uuid-tree-park-9", "type": "decorative-tree-floating", "category": "decorative", "x": 340, "y": 155, "width": 2, "height": 2, "rotation": 0, "scale": 1, "color": "#9370DB", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    ,{ "id": "uuid-tree-park-10", "type": "decorative-tree-tree", "category": "decorative", "x": 280, "y": 230, "width": 2.5, "height": 2.5, "rotation": 0, "scale": 1, "color": "#228B22", "layerId": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "elevationOffset": 0, "properties": {} }
+    // END OF GENERATED ITEMS
+  ],
+  "layers": [
+    { "id": "fefdffae-b4a5-4a3a-9832-5e0187857c7d", "name": "Map Background", "zIndex": -10, "visible": true },
+    { "id": "e44f225d-ad14-468d-8a0b-564e94488c2d", "name": "Ground", "zIndex": 0, "visible": true },
+    { "id": "9b7e32b3-0f4f-43a5-a73d-93d73a5206cf", "name": "Plots", "zIndex": 0.01, "visible": true },
+    { "id": "8b280db3-d9c3-4a8a-a428-31a6d4487d98", "name": "Streets", "zIndex": 0.02, "visible": true },
+    { "id": "2423f38a-3ca2-495a-8705-6069dbaddbf8", "name": "Decorative Elements", "zIndex": 0.03, "visible": true },
+    { "id": "a50cd454-f320-4dd4-b00e-30951b968325", "name": "Buildings", "zIndex": 0.1, "visible": true },
+    { "id": "42a169fb-27b7-49ed-a48f-b92500d3265d", "name": "Landmarks", "zIndex": 0.15, "visible": true }
+  ],
+  "environment": {
+    "backgroundColor": "#A2D9CE",
+    "starsIntensity": 0.2,
+    "ambientLightColor": "#FFFFFF",
+    "ambientLightIntensity": 0.8
+  }
+}
