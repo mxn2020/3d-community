@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "PORT=3090 HOST=0.0.0.0 pnpm with-env next dev --turbo",
+    "build-prod": "pnpm next build",
     "build": "pnpm with-env next build",
     "start": "pnpm with-env next start",
     "clean": "git clean -xdf .next .turbo node_modules",
