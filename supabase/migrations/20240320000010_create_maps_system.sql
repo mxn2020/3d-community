@@ -33,8 +33,8 @@ EXECUTE PROCEDURE update_timestamp();
 -- Create RLS policies to restrict access to admin users
 ALTER TABLE community_maps ENABLE ROW LEVEL SECURITY;
 
--- Create a function to check if user is admin
-CREATE OR REPLACE FUNCTION auth.is_admin()
+-- Create a function to check if user is admin (moved to public schema)
+CREATE OR REPLACE FUNCTION public.is_admin()
 RETURNS BOOLEAN AS $$
 BEGIN
   RETURN (SELECT 
@@ -54,8 +54,8 @@ DROP POLICY IF EXISTS "Admins have full access to community maps" ON community_m
 CREATE POLICY "Admins have full access to community maps"
 ON community_maps
 TO authenticated
-USING (auth.is_admin())
-WITH CHECK (auth.is_admin());
+USING (public.is_admin())
+WITH CHECK (public.is_admin());
 
 -- Policy for all users to read active maps
 CREATE POLICY "Anyone can view active community maps"

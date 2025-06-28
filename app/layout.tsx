@@ -5,6 +5,7 @@ import { ThemeProvider } from '@/components/providers/theme-provider';
 import QueryProvider from '@/components/providers/query-provider';
 import { AuthProvider } from '@/components/providers/auth-provider';
 import { Toaster } from 'sonner';
+import { Analytics } from "@vercel/analytics/next"
 
 // Import your server-side Supabase client creator and getUserAccount
 import { createSupabaseServerClient } from '@/lib/db';
@@ -31,6 +32,7 @@ export default async function RootLayout({ // Make it an async function
               disableTransitionOnChange
             >
               {children}
+              <Analytics /> {/* Vercel Analytics component */}
               <Toaster position="top-right" richColors />
             </ThemeProvider>
           </AuthProvider>

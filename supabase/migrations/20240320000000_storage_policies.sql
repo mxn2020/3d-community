@@ -1,5 +1,5 @@
--- Enable RLS on storage.objects
-ALTER TABLE storage.objects ENABLE ROW LEVEL SECURITY;
+-- Enable RLS on storage.objects (commented out - likely already enabled)
+-- ALTER TABLE storage.objects ENABLE ROW LEVEL SECURITY;
 
 -- Create policies for the avatars bucket
 CREATE POLICY "Allow authenticated users to upload avatars"
